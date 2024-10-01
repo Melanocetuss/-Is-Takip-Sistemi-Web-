@@ -1,0 +1,31 @@
+﻿@using MvcFirmaCagri.Models.Entity
+@{
+    ViewBag.Title = "Aktif Çağrılar";
+    Layout = "~/Views/Shared/FirmaLayout.cshtml";
+}
+
+<h2>Aktif Çağrılar</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Konu</th>
+        <th>Açıklama</th>
+        <th>Tarih</th>
+        <th>Düzenle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.ID_CAGRI</td>
+            <td>@x.KONU</td>
+            <td>@x.ACIKLAMA</td>
+            <td>@x.TARIH.ToString("yyyy-MM-dd")</td>
+            <td><a href="/Default/CagriGetir/@x.ID_CAGRI" class="btn btn-success">Düzenle</a></td>
+            <td><a href="/Default/CagriDetay/@x.ID_CAGRI/" class="btn btn-info">Detaylar...</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Default/YeniCagri/" class="btn btn-warning">Yeni Çağrı Ekle</a>
+<a href="/Default/AktifCagrilarExportToExcel/" class="btn btn-primary">Excel'e Aktar</a>

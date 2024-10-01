@@ -1,0 +1,31 @@
+﻿@using MvcFirmaCagri.Models.Entity
+@model List<tbl_Mesajlar>
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-comment-o"></i><span class="badge blue">@ViewBag.okunmamisMesajSayisi</span>
+    </a>
+    <ul class="dropdown-menu">
+        <li>
+            <div class="notification_header">
+                <h3>Gelen mesaj sayısı: @ViewBag.okunmamisMesajSayisi</h3>
+            </div>
+        </li>
+        @foreach (var x in Model)
+        {
+            <li>
+                <a href="/Default/mesajlariGoruntule/" class="grid">
+                    <img class="user_img" src="@x.tbl_Firmalar1.GORSEL" alt="Firma Görseli" />
+                    <div class="notification_desc">
+                        <p>@x.tbl_Firmalar1.FIRMA_ADI</p>
+                        <span>@x.KONU</span>
+                    </div>
+                </a>
+            </li>
+        }
+        <li>
+            <div class="notification_bottom">
+                <a href="/Default/mesajlariGoruntule/" class="bg-primary">Bütün mesajları görüntüle</a>
+            </div>
+        </li>
+    </ul>
+</li>

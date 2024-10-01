@@ -1,0 +1,21 @@
+﻿@model MvcFirmaCagri.Models.Entity.tbl_Cagri
+@{
+    ViewBag.Title = "CagriGetir";
+    Layout = "~/Views/Shared/FirmaLayout.cshtml";
+}
+
+<h2>Cağrı Düzenleme</h2>
+<br />
+@using (Html.BeginForm("CagriDuzenle", "Default", FormMethod.Post))
+{
+    @Html.HiddenFor(x=> x.ID_CAGRI)
+    @Html.Label("Konu")
+    @Html.TextBoxFor(x => x.KONU, new { @class = "form-control" })
+    <br />
+    @Html.Label("Açıklama")
+    @Html.TextAreaFor(x => x.ACIKLAMA, 10, 4, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-primary">Çağrıyı Düzenle</button>
+}
+
+

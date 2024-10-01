@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbisTakipModelStoreContainer" CdmEntityContainer="DbisTakipEntities">
+    <EntitySetMapping Name="tbl_ADMIN">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_ADMIN">
+        <MappingFragment StoreEntitySet="tbl_ADMIN">
+          <ScalarProperty Name="ID_ADMIN" ColumnName="ID_ADMIN" />
+          <ScalarProperty Name="KULLANICI_ADI" ColumnName="KULLANICI_ADI" />
+          <ScalarProperty Name="SIFRE" ColumnName="SIFRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Cagri">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_Cagri">
+        <MappingFragment StoreEntitySet="tbl_Cagri">
+          <ScalarProperty Name="ID_CAGRI" ColumnName="ID_CAGRI" />
+          <ScalarProperty Name="FIRMA_ID" ColumnName="FIRMA_ID" />
+          <ScalarProperty Name="KONU" ColumnName="KONU" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+          <ScalarProperty Name="CAGRI_DURUM" ColumnName="CAGRI_DURUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Departmanlar">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_Departmanlar">
+        <MappingFragment StoreEntitySet="tbl_Departmanlar">
+          <ScalarProperty Name="ID_DEPARTMAN" ColumnName="ID_DEPARTMAN" />
+          <ScalarProperty Name="DEPARTMAN_ADI" ColumnName="DEPARTMAN_ADI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Firmalar">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_Firmalar">
+        <MappingFragment StoreEntitySet="tbl_Firmalar">
+          <ScalarProperty Name="GORSEL" ColumnName="GORSEL" />
+          <ScalarProperty Name="FIRMA_SIFRE" ColumnName="FIRMA_SIFRE" />
+          <ScalarProperty Name="ID_FIRMA" ColumnName="ID_FIRMA" />
+          <ScalarProperty Name="FIRMA_ADI" ColumnName="FIRMA_ADI" />
+          <ScalarProperty Name="FIRMA_YETKILI" ColumnName="FIRMA_YETKILI" />
+          <ScalarProperty Name="FIRMA_TELEFON" ColumnName="FIRMA_TELEFON" />
+          <ScalarProperty Name="FIRMA_MAIL" ColumnName="FIRMA_MAIL" />
+          <ScalarProperty Name="FIRMA_SEKTOR" ColumnName="FIRMA_SEKTOR" />
+          <ScalarProperty Name="FIRMA_IL" ColumnName="FIRMA_IL" />
+          <ScalarProperty Name="FIRMA_ILCE" ColumnName="FIRMA_ILCE" />
+          <ScalarProperty Name="FIRMA_ADRES" ColumnName="FIRMA_ADRES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_GorevDetaylar">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_GorevDetaylar">
+        <MappingFragment StoreEntitySet="tbl_GorevDetaylar">
+          <ScalarProperty Name="ID_GOREV_DETAY" ColumnName="ID_GOREV_DETAY" />
+          <ScalarProperty Name="GOREV" ColumnName="GOREV" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+          <ScalarProperty Name="SAAT" ColumnName="SAAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Gorevler">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_Gorevler">
+        <MappingFragment StoreEntitySet="tbl_Gorevler">
+          <ScalarProperty Name="ID_GOREV" ColumnName="ID_GOREV" />
+          <ScalarProperty Name="GOREV_VEREN" ColumnName="GOREV_VEREN" />
+          <ScalarProperty Name="GOREV_ALAN" ColumnName="GOREV_ALAN" />
+          <ScalarProperty Name="GOREV_ACIKLAMA" ColumnName="GOREV_ACIKLAMA" />
+          <ScalarProperty Name="GOREV_DURUM" ColumnName="GOREV_DURUM" />
+          <ScalarProperty Name="GOREV_TARIH" ColumnName="GOREV_TARIH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Personeler">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_Personeler">
+        <MappingFragment StoreEntitySet="tbl_Personeler">
+          <ScalarProperty Name="ID_PERSONAl" ColumnName="ID_PERSONAl" />
+          <ScalarProperty Name="PERSONEL_ADI" ColumnName="PERSONEL_ADI" />
+          <ScalarProperty Name="PERSONEL_SOYADI" ColumnName="PERSONEL_SOYADI" />
+          <ScalarProperty Name="PERSONEL_MAIL" ColumnName="PERSONEL_MAIL" />
+          <ScalarProperty Name="PERSONEL_TELEFON" ColumnName="PERSONEL_TELEFON" />
+          <ScalarProperty Name="PERSONEL_GORSEL" ColumnName="PERSONEL_GORSEL" />
+          <ScalarProperty Name="DEPARTMAN" ColumnName="DEPARTMAN" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_CagriDetay">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_CagriDetay">
+        <MappingFragment StoreEntitySet="tbl_CagriDetay">
+          <ScalarProperty Name="Saat" ColumnName="Saat" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="CAGRI_ID" ColumnName="CAGRI_ID" />
+          <ScalarProperty Name="ID_CAGRI_DETAY" ColumnName="ID_CAGRI_DETAY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Mesajlar">
+      <EntityTypeMapping TypeName="DbisTakipModel.tbl_Mesajlar">
+        <MappingFragment StoreEntitySet="tbl_Mesajlar">
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+          <ScalarProperty Name="MESAJ" ColumnName="MESAJ" />
+          <ScalarProperty Name="KONU" ColumnName="KONU" />
+          <ScalarProperty Name="ALICI" ColumnName="ALICI" />
+          <ScalarProperty Name="GONDEREN" ColumnName="GONDEREN" />
+          <ScalarProperty Name="ID_MESAJ" ColumnName="ID_MESAJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetGelenMesajlar" FunctionName="DbisTakipModel.Store.GetGelenMesajlar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DbisTakipModel.GetGelenMesajlar_Result">
+          <ScalarProperty Name="FIRMA_ADI" ColumnName="FIRMA_ADI" />
+          <ScalarProperty Name="KONU" ColumnName="KONU" />
+          <ScalarProperty Name="MESAJ" ColumnName="MESAJ" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
