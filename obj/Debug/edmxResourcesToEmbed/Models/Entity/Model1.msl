@@ -73,6 +73,7 @@
     <EntitySetMapping Name="tbl_Personeler">
       <EntityTypeMapping TypeName="DbisTakipModel.tbl_Personeler">
         <MappingFragment StoreEntitySet="tbl_Personeler">
+          <ScalarProperty Name="ROL" ColumnName="ROL" />
           <ScalarProperty Name="ID_PERSONAl" ColumnName="ID_PERSONAl" />
           <ScalarProperty Name="PERSONEL_ADI" ColumnName="PERSONEL_ADI" />
           <ScalarProperty Name="PERSONEL_SOYADI" ColumnName="PERSONEL_SOYADI" />

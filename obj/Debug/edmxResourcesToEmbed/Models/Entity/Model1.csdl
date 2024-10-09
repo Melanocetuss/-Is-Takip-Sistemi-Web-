@@ -88,6 +88,7 @@
     <NavigationProperty Name="tbl_Departmanlar" Relationship="Self.FK_tbl_Personeler_tbl_Departmanlar" FromRole="tbl_Personeler" ToRole="tbl_Departmanlar" />
     <NavigationProperty Name="tbl_Gorevler" Relationship="Self.FK_tbl_Gorevler_tbl_Personeler" FromRole="tbl_Personeler" ToRole="tbl_Gorevler" />
     <NavigationProperty Name="tbl_Gorevler1" Relationship="Self.FK_tbl_Gorevler_tbl_Personeler1" FromRole="tbl_Personeler" ToRole="tbl_Gorevler" />
+    <Property Name="ROL" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
   </EntityType>
   <Association Name="FK_tblCagri_tblFirmalar">
     <End Role="tbl_Firmalar" Type="Self.tbl_Firmalar" Multiplicity="1" />
@@ -203,7 +204,7 @@
     <Property Name="CAGRI_ID" Type="Int32" />
     <Property Name="ACIKLAMA" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
     <Property Name="Tarih" Type="DateTime" Precision="0" />
-    <Property Name="Saat" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="Saat" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
     <NavigationProperty Name="tbl_Cagri" Relationship="DbisTakipModel.FK__tbl_Cagri__CAGRI__6383C8BA" FromRole="tbl_CagriDetay" ToRole="tbl_Cagri" />
   </EntityType>
   <Association Name="FK__tbl_Cagri__CAGRI__6383C8BA">

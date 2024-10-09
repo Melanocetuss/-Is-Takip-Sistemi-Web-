@@ -32,7 +32,7 @@
           <Property Name="CAGRI_ID" Type="int" />
           <Property Name="ACIKLAMA" Type="nvarchar" MaxLength="250" />
           <Property Name="Tarih" Type="date" />
-          <Property Name="Saat" Type="char" MaxLength="5" />
+          <Property Name="Saat" Type="char" MaxLength="8" />
         </EntityType>
         <EntityType Name="tbl_Departmanlar">
           <Key>
@@ -102,6 +102,7 @@
           <Property Name="PERSONEL_GORSEL" Type="nvarchar" MaxLength="100" />
           <Property Name="DEPARTMAN" Type="int" />
           <Property Name="DURUM" Type="bit" />
+          <Property Name="ROL" Type="char" MaxLength="1" />
         </EntityType>
         <Association Name="FK__tbl_Cagri__CAGRI__6383C8BA">
           <End Role="tbl_Cagri" Type="Self.tbl_Cagri" Multiplicity="0..1" />
@@ -337,6 +338,7 @@
           <NavigationProperty Name="tbl_Departmanlar" Relationship="Self.FK_tbl_Personeler_tbl_Departmanlar" FromRole="tbl_Personeler" ToRole="tbl_Departmanlar" />
           <NavigationProperty Name="tbl_Gorevler" Relationship="Self.FK_tbl_Gorevler_tbl_Personeler" FromRole="tbl_Personeler" ToRole="tbl_Gorevler" />
           <NavigationProperty Name="tbl_Gorevler1" Relationship="Self.FK_tbl_Gorevler_tbl_Personeler1" FromRole="tbl_Personeler" ToRole="tbl_Gorevler" />
+          <Property Name="ROL" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
         </EntityType>
         <Association Name="FK_tblCagri_tblFirmalar">
           <End Role="tbl_Firmalar" Type="Self.tbl_Firmalar" Multiplicity="1" />
@@ -441,7 +443,7 @@
             <End Role="tbl_Mesajlar" EntitySet="tbl_Mesajlar" />
           </AssociationSet>
           <FunctionImport Name="GetGelenMesajlar" ReturnType="Collection(DbisTakipModel.GetGelenMesajlar_Result)">
-            <Parameter Name="AliciID" Mode="In" Type="Int32" />
+          <Parameter Name="AliciID" Mode="In" Type="Int32" />
           </FunctionImport>
         </EntityContainer>
         <EntityType Name="tbl_CagriDetay">
@@ -452,7 +454,7 @@
           <Property Name="CAGRI_ID" Type="Int32" />
           <Property Name="ACIKLAMA" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
           <Property Name="Tarih" Type="DateTime" Precision="0" />
-          <Property Name="Saat" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+          <Property Name="Saat" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
           <NavigationProperty Name="tbl_Cagri" Relationship="DbisTakipModel.FK__tbl_Cagri__CAGRI__6383C8BA" FromRole="tbl_CagriDetay" ToRole="tbl_Cagri" />
         </EntityType>
         <Association Name="FK__tbl_Cagri__CAGRI__6383C8BA">
@@ -589,6 +591,7 @@
           <EntitySetMapping Name="tbl_Personeler">
             <EntityTypeMapping TypeName="DbisTakipModel.tbl_Personeler">
               <MappingFragment StoreEntitySet="tbl_Personeler">
+                <ScalarProperty Name="ROL" ColumnName="ROL" />
                 <ScalarProperty Name="ID_PERSONAl" ColumnName="ID_PERSONAl" />
                 <ScalarProperty Name="PERSONEL_ADI" ColumnName="PERSONEL_ADI" />
                 <ScalarProperty Name="PERSONEL_SOYADI" ColumnName="PERSONEL_SOYADI" />

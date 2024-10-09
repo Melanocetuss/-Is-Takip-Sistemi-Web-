@@ -27,7 +27,7 @@
     <Property Name="CAGRI_ID" Type="int" />
     <Property Name="ACIKLAMA" Type="nvarchar" MaxLength="250" />
     <Property Name="Tarih" Type="date" />
-    <Property Name="Saat" Type="char" MaxLength="5" />
+    <Property Name="Saat" Type="char" MaxLength="8" />
   </EntityType>
   <EntityType Name="tbl_Departmanlar">
     <Key>
@@ -97,6 +97,7 @@
     <Property Name="PERSONEL_GORSEL" Type="nvarchar" MaxLength="100" />
     <Property Name="DEPARTMAN" Type="int" />
     <Property Name="DURUM" Type="bit" />
+    <Property Name="ROL" Type="char" MaxLength="1" />
   </EntityType>
   <Association Name="FK__tbl_Cagri__CAGRI__6383C8BA">
     <End Role="tbl_Cagri" Type="Self.tbl_Cagri" Multiplicity="0..1" />
