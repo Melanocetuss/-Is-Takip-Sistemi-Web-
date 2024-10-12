@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|c:\\users\\alpha\\onedrive\\masa\u00FCst\u00FC\\project\\c#\\istakipsistemiweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-03T11:12:20.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T10:12:31.649Z",
-              "EditorCaption": ""
             }
           ]
         }

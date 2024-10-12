@@ -1,0 +1,201 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <!--Bootstrap And Icons-->
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="~/webAssets/css/style.css">
+</head>
+
+<body>
+    <!--Sidebar Start-->
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex">
+                <button class="toggle-btn" type="button">
+                    <svg width="40" height="40" color="white" viewBox="0 0 25 24" fill="white" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+                        <path d="M3.5625 6C3.5625 5.58579 3.89829 5.25 4.3125 5.25H20.3125C20.7267 5.25 21.0625 5.58579 21.0625 6C21.0625 6.41421 20.7267 6.75 20.3125 6.75L4.3125 6.75C3.89829 6.75 3.5625 6.41422 3.5625 6Z" fill="white" />
+                        <path d="M3.5625 18C3.5625 17.5858 3.89829 17.25 4.3125 17.25L20.3125 17.25C20.7267 17.25 21.0625 17.5858 21.0625 18C21.0625 18.4142 20.7267 18.75 20.3125 18.75L4.3125 18.75C3.89829 18.75 3.5625 18.4142 3.5625 18Z" fill="white" />
+                        <path d="M4.3125 11.25C3.89829 11.25 3.5625 11.5858 3.5625 12C3.5625 12.4142 3.89829 12.75 4.3125 12.75L20.3125 12.75C20.7267 12.75 21.0625 12.4142 21.0625 12C21.0625 11.5858 20.7267 11.25 20.3125 11.25L4.3125 11.25Z" fill="white" />
+                    </svg>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="/Default/AnaSayfa/">Is Takip Sistemi</a>
+                </div>
+            </div>
+
+            <!-- Menu Start -->
+            <ul class="sidebar-nav">
+
+                <!-- Ana Sayfa -->
+                <li class="sidebar-item">
+                    <a href="/Default/AnaSayfa/" class="sidebar-link">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.45 4.90342C12.1833 4.70342 11.8167 4.70342 11.55 4.90342L5.05 9.77842C4.86115 9.92006 4.75 10.1423 4.75 10.3784V18.4998C4.75 18.9141 5.08579 19.2498 5.5 19.2498H9V16.9998C9 15.343 10.3431 13.9998 12 13.9998C13.6569 13.9998 15 15.343 15 16.9998V19.2498H18.5C18.9142 19.2498 19.25 18.9141 19.25 18.4998V10.3784C19.25 10.1423 19.1389 9.92006 18.95 9.77842L12.45 4.90342ZM10.65 3.70342C11.45 3.10342 12.55 3.10342 13.35 3.70342L19.85 8.57842C20.4166 9.00334 20.75 9.67021 20.75 10.3784V18.4998C20.75 19.7425 19.7426 20.7498 18.5 20.7498H14.25C13.8358 20.7498 13.5 20.4141 13.5 19.9998V16.9998C13.5 16.1714 12.8284 15.4998 12 15.4998C11.1716 15.4998 10.5 16.1714 10.5 16.9998V19.9998C10.5 20.4141 10.1642 20.7498 9.75 20.7498H5.5C4.25736 20.7498 3.25 19.7425 3.25 18.4998V10.3784C3.25 9.67021 3.58344 9.00334 4.15 8.57842L10.65 3.70342Z" fill="#ffffff" />
+                        </svg>
+                        <span>Ana Sayfa</span>
+                    </a>
+                </li>
+
+                <!-- Raporlar -->
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                       data-bs-target="#raporlar" aria-expanded="false" aria-controls="multi">
+                        <svg width="30" height="30" viewBox="0 0 25 24" fill="#white" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3507 14.4422C13.3507 14.452 13.3509 14.4618 13.3513 14.4714V15.7696C13.3513 16.5024 12.7572 17.0965 12.0243 17.0965C11.2915 17.0965 10.6974 16.5024 10.6974 15.7696V7.65429C10.6974 7.24008 10.3616 6.90429 9.9474 6.90429C9.53319 6.90429 9.1974 7.24008 9.1974 7.65429V15.7696C9.1974 17.3309 10.4631 18.5965 12.0243 18.5965C13.5856 18.5965 14.8513 17.3309 14.8513 15.7696V6.15429C14.8513 6.14353 14.8511 6.13283 14.8506 6.12217C14.8336 3.84265 12.9804 2 10.6968 2C8.40272 2 6.54297 3.85976 6.54297 6.15388V14.4422C6.54297 14.4492 6.54306 14.456 6.54325 14.4629V16.5192C6.54325 19.5462 8.99709 22 12.0241 22C15.051 22 17.5049 19.5461 17.5049 16.5192V9.55775C17.5049 9.14354 17.1691 8.80775 16.7549 8.80775C16.3407 8.80775 16.0049 9.14354 16.0049 9.55775V16.5192C16.0049 18.7177 14.2226 20.5 12.0241 20.5C9.82552 20.5 8.04325 18.7177 8.04325 16.5192V9.55775C8.04325 9.55085 8.04315 9.54397 8.04297 9.53711L8.04297 6.15388C8.04297 4.68818 9.23115 3.5 10.6968 3.5C12.1625 3.5 13.3507 4.68818 13.3507 6.15388L13.3507 14.4422Z" fill="white" />
+                        </svg>
+                        <span>Raporlar</span>
+                    </a>
+                    <!-- Cari Raporlar -->
+                    <ul id="raporlar" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse"
+                               data-bs-target="#cariRaporlar" aria-expanded="false" aria-controls="multi-two">
+                                Fiyat Farki
+                            </a>
+                            <ul id="cariRaporlar" class="sidebar-dropdown list-unstyled collapse">
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">Cari Rapor 1</a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">Cari Rapor 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Fiyat Farki -->
+                    <ul id="raporlar" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse"
+                               data-bs-target="#fiyatFarkiRaporlar" aria-expanded="false" aria-controls="multi-two">
+                                Cari Raporlar
+                            </a>
+                            <ul id="fiyatFarkiRaporlar" class="sidebar-dropdown list-unstyled collapse">
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">fiyatFarki 1</a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">fiyatFarki 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </li>
+
+                <!-- Cagrilar -->
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                       data-bs-target="#cagrilar" aria-expanded="false" aria-controls="auth">
+                        <svg width="30" height="30" viewBox="0 0 25 25" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.5568 3.79138C19.8802 3.53259 20.3522 3.58497 20.611 3.90839C22.4874 6.2534 22.4874 10.0006 20.611 12.3456C20.3522 12.669 19.8802 12.7214 19.5568 12.4626C19.2334 12.2038 19.181 11.7318 19.4398 11.4084C20.8778 9.61126 20.8778 6.6427 19.4398 4.84557C19.181 4.52216 19.2334 4.05018 19.5568 3.79138Z" fill="white" />
+                            <path d="M4.65862 4.84557C4.91741 4.52216 4.86503 4.05018 4.54161 3.79138C4.2182 3.53259 3.74622 3.58497 3.48743 3.90839C1.61096 6.2534 1.61096 10.0006 3.48743 12.3456C3.74622 12.669 4.2182 12.7214 4.54161 12.4626C4.86503 12.2038 4.91741 11.7318 4.65862 11.4084C3.22057 9.61126 3.22056 6.6427 4.65862 4.84557Z" fill="white" />
+                            <path d="M8.09555 6.87313C7.40305 7.56563 7.40305 8.6884 8.09555 9.38091C8.38844 9.6738 8.38844 10.1487 8.09555 10.4416C7.80266 10.7345 7.32778 10.7345 7.03489 10.4416C5.7566 9.16328 5.7566 7.09076 7.03489 5.81247C7.32778 5.51958 7.80266 5.51958 8.09555 5.81247C8.38844 6.10536 8.38844 6.58024 8.09555 6.87313Z" fill="white" />
+                            <path d="M16.0021 6.87313C16.6946 7.56563 16.6946 8.6884 16.0021 9.38091C15.7092 9.6738 15.7092 10.1487 16.0021 10.4416C16.295 10.7345 16.7699 10.7345 17.0628 10.4416C18.3411 9.16328 18.3411 7.09076 17.0628 5.81247C16.7699 5.51958 16.295 5.51958 16.0021 5.81247C15.7092 6.10536 15.7092 6.58024 16.0021 6.87313Z" fill="white" />
+                            <path d="M10.3008 8.12698C10.3008 7.16048 11.0843 6.37698 12.0508 6.37698H12.0518C13.0183 6.37698 13.8018 7.16048 13.8018 8.12698C13.8018 8.82624 13.3917 9.42971 12.7988 9.70997L12.7988 20.377C12.7988 20.7912 12.463 21.127 12.0488 21.127C11.6346 21.127 11.2988 20.7912 11.2988 20.377L11.2988 9.70764C10.7086 9.42638 10.3008 8.82431 10.3008 8.12698Z" fill="white" />
+                        </svg>
+                        <span>Çağrılar</span>
+                    </a>
+                    <ul id="cagrilar" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="/Default/AktifCagrilar/" class="sidebar-link">Aktif Çağrılar</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="/Default/PasifCagrilar/" class="sidebar-link">Pasif Çağrılar</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="/Default/YeniCagri/" class="sidebar-link">Yeni Çağrı</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Mesajlar -->
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                       data-bs-target="#mesajlar" aria-expanded="false" aria-controls="auth">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.25 9.77344C6.25 9.35922 6.58579 9.02344 7 9.02344H17C17.4142 9.02344 17.75 9.35922 17.75 9.77344C17.75 10.1877 17.4142 10.5234 17 10.5234H7C6.58579 10.5234 6.25 10.1877 6.25 9.77344Z" fill="white" />
+                            <path d="M7 12.0234C6.58579 12.0234 6.25 12.3592 6.25 12.7734C6.25 13.1877 6.58579 13.5234 7 13.5234H12C12.4142 13.5234 12.75 13.1877 12.75 12.7734C12.75 12.3592 12.4142 12.0234 12 12.0234H7Z" fill="white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 5.53125C2.5 4.28861 3.50736 3.28125 4.75 3.28125H19.25C20.4926 3.28125 21.5 4.28861 21.5 5.53125V16.0796C21.5 17.3223 20.4926 18.3296 19.25 18.3296H15.1014L12.6025 21.6956C12.461 21.8861 12.2377 21.9985 12.0003 21.9985C11.763 21.9985 11.5396 21.8861 11.3981 21.6956L8.89931 18.3296H4.75C3.50736 18.3296 2.5 17.3223 2.5 16.0796V5.53125ZM4.75 4.78125C4.33579 4.78125 4 5.11704 4 5.53125V16.0796C4 16.4938 4.33579 16.8296 4.75 16.8296H9.2766C9.51396 16.8296 9.73731 16.942 9.87879 17.1326L12.0003 19.9903L14.1219 17.1326C14.2634 16.942 14.4867 16.8296 14.7241 16.8296H19.25C19.6642 16.8296 20 16.4938 20 16.0796V5.53125C20 5.11704 19.6642 4.78125 19.25 4.78125H4.75Z" fill="white" />
+                        </svg>
+                        <span>Mesajlar</span>
+                    </a>
+                    <ul id="mesajlar" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="/Default/mesajlariGoruntule/" class="sidebar-link">Gelen Mesajlar</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Gönderilen Mesajlar</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Mesaj Gönder</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <!-- Gorevler -->
+                <li class="sidebar-item">
+                    <a href="/Default/ProfilDuzenle/" class="sidebar-link">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.1385 2.29633C11.6899 2.06789 12.3094 2.06789 12.8608 2.29633L19.409 5.00923C20.1849 5.33068 20.7473 6.07313 20.7701 6.95597C20.8871 11.5013 19.4296 17.7631 13.067 21.5139C12.4101 21.9012 11.5955 21.9047 10.9353 21.5237C4.43153 17.7707 3.09402 11.4935 3.22752 6.95318C3.2534 6.07287 3.81392 5.33089 4.59034 5.00922L11.1385 2.29633ZM12.2867 3.68211C12.1029 3.60596 11.8964 3.60596 11.7126 3.68211L5.16447 6.395C4.89602 6.50622 4.73423 6.74708 4.72687 6.99727C4.60224 11.2358 5.84237 16.853 11.685 20.2245C11.8771 20.3354 12.1143 20.3343 12.3052 20.2218C18.0304 16.8467 19.3795 11.223 19.2706 6.99458C19.2642 6.74684 19.1038 6.50643 18.8349 6.39501L12.2867 3.68211Z" fill="white" />
+                        </svg>
+
+                        <span>Profilimi Düzenle</span>
+                    </a>
+                </li>
+
+                <!-- İletişim -->
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26534 3.25728C5.54121 1.98143 7.69866 2.37266 8.4453 4.01527L10.0666 7.58207C10.4662 8.46115 10.3393 9.47941 9.7603 10.2298C9.57069 10.4755 9.33228 10.6266 9.14342 10.7234L6.34328 12.1589C7.02276 13.246 7.83521 14.2739 8.78072 15.2194C9.72626 16.1649 10.7541 16.9774 11.8412 17.6569L13.2768 14.8567C13.3736 14.6679 13.5247 14.4295 13.7704 14.2399C14.5208 13.6608 15.539 13.534 16.4181 13.9336L19.9849 15.5549C21.6275 16.3015 22.0187 18.459 20.7429 19.7348L19.6747 20.803C19.1484 21.3293 18.3886 21.603 17.6192 21.4643C13.993 20.8106 10.5219 19.0819 7.72006 16.28C4.91826 13.4782 3.18949 10.0071 2.53579 6.38098C2.39708 5.61151 2.6708 4.85172 3.19715 4.32541C3.19715 4.32541 3.19715 4.32541 3.19715 4.32541M4.26534 3.25728C4.26533 3.25729 4.26534 3.25728 4.26534 3.25728V3.25728ZM13.148 18.3959C14.656 19.1633 16.2534 19.694 17.8853 19.9881C18.1347 20.0331 18.4082 19.9481 18.614 19.7424L19.6822 18.6742C20.2175 18.1389 20.0534 17.2337 19.3642 16.9204L15.7974 15.2991C15.4288 15.1316 15.0014 15.1846 14.6867 15.4274C14.6868 15.4274 14.6869 15.4273 14.6867 15.4274C14.6855 15.4284 14.6781 15.4349 14.6657 15.4513C14.6513 15.4704 14.6332 15.499 14.6116 15.5411L13.148 18.3959ZM5.60427 10.8522L8.4591 9.38858C8.50118 9.367 8.52978 9.34884 8.54888 9.33445C8.56744 9.32046 8.57309 9.31298 8.57276 9.31341C8.81555 8.99879 8.86856 8.57137 8.70102 8.20278L7.07975 4.63597C6.76648 3.94679 5.86129 3.78265 5.32598 4.31796L4.25778 5.3861C4.05198 5.59188 3.96702 5.86538 4.01199 6.11487C4.30617 7.74671 4.83685 9.34411 5.60427 10.8522Z" fill="white" />
+                            <path d="M3.19715 4.32541L4.26534 3.25728L3.19715 4.32541Z" fill="white" />
+                        </svg>
+                        <span>İletişim</span>
+                    </a>
+                </li>
+
+            </ul>
+            <!-- Menu End -->
+            
+            <!-- Cikis Yap -->
+            <div class="sidebar-footer">
+                <a href="/Default/LogOut/" class="sidebar-link">
+                    <svg width="30" height="30" viewBox="0 0 25 25" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.5781 2.5C10.3355 2.5 9.32812 3.50736 9.32812 4.75V6.6285C9.44877 6.70925 9.56333 6.80292 9.66985 6.90952L10.8281 8.06853V4.75C10.8281 4.33579 11.1639 4 11.5781 4H17.5781C17.9923 4 18.3281 4.33579 18.3281 4.75V20.25C18.3281 20.6642 17.9923 21 17.5781 21H11.5781C11.1639 21 10.8281 20.6642 10.8281 20.25V16.9314L9.6699 18.0904C9.56336 18.197 9.44879 18.2907 9.32812 18.3715V20.25C9.32812 21.4926 10.3355 22.5 11.5781 22.5H17.5781C18.8208 22.5 19.8281 21.4926 19.8281 20.25V4.75C19.8281 3.50736 18.8208 2.5 17.5781 2.5H11.5781Z" fill="#ffffff" />
+                        <path d="M3.57812 12.5C3.57812 12.7259 3.67796 12.9284 3.83591 13.0659L7.79738 17.0301C8.09017 17.3231 8.56504 17.3233 8.85804 17.0305C9.15104 16.7377 9.1512 16.2629 8.85841 15.9699L6.14046 13.25L12.0781 13.25C12.4923 13.25 12.8281 12.9142 12.8281 12.5C12.8281 12.0858 12.4923 11.75 12.0781 11.75L6.14028 11.75L8.85839 9.03016C9.15119 8.73718 9.15104 8.2623 8.85806 7.9695C8.56507 7.6767 8.0902 7.67685 7.7974 7.96984L3.83388 11.9359C3.67711 12.0733 3.57812 12.2751 3.57812 12.5Z" fill="#ffffff" />
+                    </svg>
+                    <span>Çıkış Yap</span>
+                </a>
+            </div>
+        </aside>
+
+        <div class="main p-3 bg-dark text-white">
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <!--Sidebar End-->
+    <!--Bootstrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+    <script src="~/webAssets/js/script.js"></script>
+</body>
+
+</html>

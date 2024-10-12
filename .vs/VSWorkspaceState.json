@@ -3,8 +3,9 @@
     "",
     "\\Controllers",
     "\\Views",
-    "\\Views\\Default"
+    "\\Views\\Default",
+    "\\Views\\Login"
   ],
-  "SelectedNode": "\\Views\\Default\\YeniCagri.cshtml",
+  "SelectedNode": "\\MvcFirmaCagri.sln",
   "PreviewInSolutionExplorer": false
 }
