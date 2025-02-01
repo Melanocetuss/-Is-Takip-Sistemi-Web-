@@ -16,3 +16,11 @@ Bu proje, C# programlama dili ve DevExpress bileşenleri kullanılarak geliştir
 ## Kullanılan Teknolojiler
 - C#: Projenin temel programlama dili.
 - Entity Framework: Veritabanı işlemleri ve ORM (Object-Relational Mapping) için kullanıldı.
+
+![resim](readmeImage/Screenshot1.png)
+![resim](readmeImage/Screenshot2.png)
+![resim](readmeImage/Screenshot3.png)
+![resim](readmeImage/Screenshot4.png)
+![resim](readmeImage/Screenshot5.png)
+![resim](readmeImage/Screenshot6.png)
+![resim](readmeImage/Screenshot7.png)
