@@ -15,5 +15,4 @@ Bu proje, C# programlama dili ve DevExpress bileşenleri kullanılarak geliştir
 - Services: İş mantığı ve servis katmanı.
 ## Kullanılan Teknolojiler
 - C#: Projenin temel programlama dili.
-- DevExpress: Kullanıcı arayüzü tasarımı ve zengin kontroller için kullanıldı.
 - Entity Framework: Veritabanı işlemleri ve ORM (Object-Relational Mapping) için kullanıldı.
