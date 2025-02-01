@@ -6,39 +6,43 @@
 
 <!doctype html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>İş Takip Sistemi</title>
+
+    <title>Naturak Ana Sayfa</title>
+
     <!-- Template CSS -->
     <link rel="stylesheet" href="~/web2/starter/assets/css/style-starter.css">
+
     <!-- google fonts -->
     <link href="//fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
 </head>
-<body class="sidebar-menu-collapsed">
-    <div class="se-pre-con"></div>
+
+<body class="sidebar-menu-collapsed bg-dark">
     <section>
-        <!-- sidebar menu start -->
-        <!-- //sidebar menu end -->
-        <!-- header-starts -->
-        <div class="header sticky-header">
-            <!-- notification menu start -->
+
+        <!-- Navbar Start -->
+        <div class="header sticky-header bg-dark">
+
+            <!-- Bildirim Menu Start -->
             <div class="menu-right">
                 <div class="navbar user-panel-top">
-                    <div class="search-box">
-                        <form action="#search-results.html" method="get">
-                            <input class="search-input" placeholder="Arama" type="search" id="search">
-                            <button class="search-submit" value=""><span class="fa fa-search"></span></button>
-                        </form>
-                    </div>
+
                     <div class="user-dropdown-details d-flex">
                         <div class="profile_details_left">
                             <ul class="nofitications-dropdown">
-                                @Html.Action("Partial2","Default")
-                                @Html.Action("Partial1","Default")
+                                <!-- Cagrilar -->
+                                @Html.Action("Partial2", "Default")
+
+                                <!-- Mesajlar -->
+                                @Html.Action("Partial1", "Default")
                             </ul>
                         </div>
+
+                        <!-- Profil Menü Start -->
                         <div class="profile_details">
                             <ul>
                                 <li class="dropdown profile_details_drop">
@@ -68,30 +72,31 @@
                     </div>
                 </div>
             </div>
-            <!--notification menu end -->
+            <!-- Bildirim End -->
         </div>
-        <!-- //header-ends -->
-        <!-- main content start -->
-        <div class="main-content">
-            <!-- content -->
+        <!-- Navbar End -->
+        <!-- Main Start -->
+        <div class="main-content bg-dark">
+            <!-- Content -->
             <div class="container-fluid content-top-gap">
-                <!-- statistics data -->
+
+                <!-- İstatistik Verileri Start -->
                 <div class="statistics">
                     <div class="row">
-                        <div class="col-xl-6 pr-xl-2">
+                        <div class="col-xl-6 pr-xl-2 bg-dark">
                             <div class="row">
                                 <div class="col-sm-6 pr-sm-2 statistics-grid">
-                                    <div class="card card_border border-primary-top p-4">
+                                    <div class="card card_border border-primary-top p-4 bg-dark">
                                         <i class="lnr lnr-users"> </i>
                                         <h3 class="text-primary number">@ViewBag.toplamCagri</h3>
-                                        <p class="stat-text">Toplam Çağrı Sayısı</p>
+                                        <p class="stat-text">Toplam Sipariş</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 pl-sm-2 statistics-grid">
-                                    <div class="card card_border border-primary-top p-4">
+                                    <div class="card card_border border-primary-top p-4 bg-dark">
                                         <i class="lnr lnr-eye"> </i>
                                         <h3 class="text-secondary number">@ViewBag.toplamAktifCagri</h3>
-                                        <p class="stat-text">Aktif Çağrı</p>
+                                        <p class="stat-text">Devam Eden Siparişler</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,14 +104,14 @@
                         <div class="col-xl-6 pl-xl-2">
                             <div class="row">
                                 <div class="col-sm-6 pr-sm-2 statistics-grid">
-                                    <div class="card card_border border-primary-top p-4">
+                                    <div class="card card_border border-primary-top p-4 bg-dark">
                                         <i class="lnr lnr-cloud-download"> </i>
                                         <h3 class="text-success number">@ViewBag.toplamPasifCagri</h3>
-                                        <p class="stat-text">Pasif Çağrı</p>
+                                        <p class="stat-text"> Tamamlanmış Siparişler </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 pl-sm-2 statistics-grid">
-                                    <div class="card card_border border-primary-top p-4">
+                                    <div class="card card_border border-primary-top p-4 bg-dark">
                                         <i class="lnr lnr-cart"> </i>
                                         <h3 class="text-danger number">@ViewBag.sektor</h3>
                                         <p class="stat-text">Sektör</p>
@@ -116,81 +121,69 @@
                         </div>
                     </div>
                 </div>
-                <!-- //statistics data -->
-        
-                <!-- accordions -->
-                <div class="accordions">
+                <!-- İstatistik Verileri End -->
+
+                <!-- Grafikler Start -->
+                <div class="chart">
+                    <!-- Bar Grafik Start -->
                     <div class="row">
-                        <!-- accordion style 1 -->
-                        <div class="col-lg-12 mb-4">
-                            <div class="card card_border">
-                                <div class="card-header chart-grid__header">
-                                    Yardım Menüsü
+                        <div class="col-lg-6 pr-lg-2 chart-grid">
+                            <div class="card text-center card_border">
+                                <div class="card-header chart-grid__header bg-dark">
+                                    Bar Grafiği
                                 </div>
-                                <div class="card-body">
-                                    <div class="accordion" id="accordionExample">
-                                        <div class="card">
-                                            <div class="card-header bg-white p-0" id="headingOne">
-                                                <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseOne"
-                                                   aria-expanded="true" aria-controls="collapseOne">Mesajlar ile ilgili progremler</a>
-                                            </div>
-                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                                 data-parent="#accordionExample">
-                                                <div class="card-body para__style">
-                                                    IT ile iletişime geçin tell +90 555 555 55 55
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header bg-white p-0" id="headingTwo">
-                                                <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseTwo"
-                                                   aria-expanded="false" aria-controls="collapseTwo">Çağrılar ile ilgili proglemler</a>
-                                            </div>
-                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                                <div class="card-body para__style">
-                                                    IT ile iletişime geçin tell +90 555 555 55 55
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header bg-white p-0" id="headingThree">
-                                                <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseThree"
-                                                   aria-expanded="false" aria-controls="collapseThree">
-                                                   Hesap ile ilgili proglemler
-                                                </a>
-                                            </div>
-                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                                 data-parent="#accordionExample">
-                                                <div class="card-body para__style">
-                                                    IT ile iletişime geçin tell +90 555 555 55 55
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="card-body bg-dark">
+                                    <!-- bar chart -->
+                                    <div id="container">
+                                        <canvas id="barchart"></canvas>
                                     </div>
+                                    <!-- bar chart -->
+                                </div>
+                                <div class="card-footer text-muted chart-grid__footer bg-dark">
+                                    Şuanlık Grafik Statik
                                 </div>
                             </div>
                         </div>
-                        <!-- //accordion style 1 -->
+                        <!-- Bar Grafik End-->
+
+                        <!-- Çizgi Grafik Start-->
+                        <div class="col-lg-6 pl-lg-2 chart-grid">
+                            <div class="card text-center card_border">
+                                <div class="card-header chart-grid__header bg-dark">
+                                    Line Chart
+                                </div>
+                                <div class="card-body bg-dark">
+                                    <!-- line chart -->
+                                    <div id="container">
+                                        <canvas id="linechart"></canvas>
+                                    </div>
+                                    <!-- //line chart -->
+                                </div>
+                                <div class="card-footer text-muted chart-grid__footer bg-dark">
+                                    Şuanlık Grafik Statik
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Çizgi Grafik End-->
+
                     </div>
                 </div>
-                <!-- //accordions -->               
+                <!-- Grafikler End-->
+                          
             </div>
-            <!-- //content -->
         </div>
-        <!-- main content end-->
     </section>
-    <!--footer section start-->
-    <footer class="dashboard">
+    <!-- Main End-->
+
+    <!-- Footer Start-->
+    <footer class="dashboard" style="height:123px;">
         <p>
-            &copy 2020 Collective. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank"
-                                                                      class="text-primary">W3layouts.</a>
+            Tüm Hakları Saklıdır <a href="https://github.com/" target="_blank" class="text-primary">Melanocetus</a> 2024
         </p>
     </footer>
-    <!--footer section end-->
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
-        <span class="fa fa-angle-up"></span>
-    </button>
+    <!-- Footer End -->
+
+    <!-- Javascirpt -->
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {

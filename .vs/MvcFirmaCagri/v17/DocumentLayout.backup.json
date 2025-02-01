@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|c:\\users\\alpha\\onedrive\\masa\u00FCst\u00FC\\project\\c#\\istakipsistemiweb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:views\\shared\\sidebarlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|c:\\users\\alpha\\onedrive\\masa\u00FCst\u00FC\\project\\c#\\istakipsistemiweb\\webassets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:webassets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|c:\\users\\alpha\\onedrive\\masa\u00FCst\u00FC\\project\\c#\\istakipsistemiweb\\views\\shared\\loginsidebarlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:views\\shared\\loginsidebarlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|c:\\users\\alpha\\onedrive\\masa\u00FCst\u00FC\\project\\c#\\istakipsistemiweb\\views\\default\\partial1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:views\\default\\partial1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\views\\default\\yenicagri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4331CBAE-D597-4ECE-9FD1-353F6BFADF22}|MvcFirmaCagri.csproj|solutionrelative:views\\default\\yenicagri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +34,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T10:25:17.758Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -40,49 +66,60 @@
               "RelativeDocumentMoniker": "Views\\Shared\\SidebarLayout.cshtml",
               "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Shared\\SidebarLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\SidebarLayout.cshtml",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAIIAAABrAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T08:30:06.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\webAssets\\css\\style.css",
-              "RelativeDocumentMoniker": "webAssets\\css\\style.css",
-              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\webAssets\\css\\style.css",
-              "RelativeToolTip": "webAssets\\css\\style.css",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAJMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-12T08:22:46.773Z",
+              "WhenOpened": "2025-02-01T14:03:43.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoginSidebarLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Shared\\LoginSidebarLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\LoginSidebarLayout.cshtml",
-              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Shared\\LoginSidebarLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\LoginSidebarLayout.cshtml",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "Partial1.cshtml",
+              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Default\\Partial1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\Partial1.cshtml",
+              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Default\\Partial1.cshtml",
+              "RelativeToolTip": "Views\\Default\\Partial1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T08:18:08.766Z",
+              "WhenOpened": "2024-11-27T14:51:33.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T08:14:38.23Z",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T05:14:05.929Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T05:11:12.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YeniCagri.cshtml",
+              "DocumentMoniker": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Default\\YeniCagri.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\YeniCagri.cshtml",
+              "ToolTip": "C:\\Users\\alpha\\OneDrive\\Masa\u00FCst\u00FC\\Project\\C#\\IsTakipSistemiWeb\\Views\\Default\\YeniCagri.cshtml",
+              "RelativeToolTip": "Views\\Default\\YeniCagri.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T14:15:25.732Z"
             }
           ]
         }

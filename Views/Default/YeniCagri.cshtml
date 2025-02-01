@@ -5,15 +5,15 @@
 }
 
 <h2>Yeni Çağrı Eklema Sayfası</h2>
-<br/>
-<form method="post">
-    
+<br />
+
+<form method="post" style="display: inline-block; justify-content: center;  width:600px">
+
     @Html.Label("Konu")
-    @Html.TextBoxFor(x=> x.KONU, new {@class="form-control"})
-    <br/>
+    @Html.TextBoxFor(x => x.KONU, new { @class = "form-control" })
+    <br />
     @Html.Label("Açıklama")
-    @Html.TextAreaFor(x=> x.ACIKLAMA, 10, 4, new { @class = "form-control" })
-    <br/>
+    @Html.TextAreaFor(x => x.ACIKLAMA, 10, 4, new { @class = "form-control" })
+    <br />
     <button class="btn btn-primary">Çağrı Oluştur</button>
 </form>
-

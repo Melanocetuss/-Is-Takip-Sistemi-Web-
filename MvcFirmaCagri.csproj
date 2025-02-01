@@ -286,6 +286,7 @@
     <Content Include="web2\starter\assets\js\scripts.js" />
     <Content Include="web2\starter\assets\js\utils.js" />
     <Content Include="webAssets\css\style.css" />
+    <Content Include="webAssets\image\logo.jpg" />
     <Content Include="webAssets\js\script.js" />
     <EntityDeploy Include="Models\Entity\Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -314,7 +315,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\FirmaLayout.cshtml" />
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Default\AktifCagrilar.cshtml" />
     <Content Include="Views\Default\PasifCagrilar.cshtml" />
@@ -339,7 +339,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="webAssets\image\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

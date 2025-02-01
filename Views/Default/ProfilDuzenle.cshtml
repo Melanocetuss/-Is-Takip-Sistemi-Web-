@@ -7,28 +7,30 @@
 
 <h2>Profil Düzenleme</h2>
 <br />
-@using (Html.BeginForm("CagriDuzenle", "Default", FormMethod.Post))
-{
-    @Html.HiddenFor(x => x.ID_FIRMA)
-    @Html.Label("Firma Adı")
-    @Html.TextBoxFor(x => x.FIRMA_ADI, new { @class = "form-control" })
-    <br />
+<div style="display: inline-block; justify-content: center;  width:600px">
+    @using (Html.BeginForm("CagriDuzenle", "Default", FormMethod.Post))
+    {
+        @Html.HiddenFor(x => x.ID_FIRMA)
+        @Html.Label("Firma Adı")
+        @Html.TextBoxFor(x => x.FIRMA_ADI, new { @class = "form-control" })
+        <br />
 
-    @Html.Label("Firma Sektörü")
-    @Html.TextBoxFor(x => x.FIRMA_SEKTOR, new { @class = "form-control" })
-    <br />
+        @Html.Label("Firma Sektörü")
+        @Html.TextBoxFor(x => x.FIRMA_SEKTOR, new { @class = "form-control" })
+        <br />
 
-    @Html.Label("Firma Yetkilisi")
-    @Html.TextBoxFor(x => x.FIRMA_YETKILI, new { @class = "form-control" })
-    <br />
+        @Html.Label("Firma Yetkilisi")
+        @Html.TextBoxFor(x => x.FIRMA_YETKILI, new { @class = "form-control" })
+        <br />
 
-    @Html.Label("Yetkili Telefon Numarası")
-    @Html.TextBoxFor(x => x.FIRMA_TELEFON, new { @class = "form-control" })
-    <br />
+        @Html.Label("Yetkili Telefon Numarası")
+        @Html.TextBoxFor(x => x.FIRMA_TELEFON, new { @class = "form-control" })
+        <br />
 
-    @Html.Label("Hesap Sifresi")
-    @Html.TextBoxFor(x => x.FIRMA_SIFRE, new { @class = "form-control" })
-    <br />
+        @Html.Label("Hesap Sifresi")
+        @Html.TextBoxFor(x => x.FIRMA_SIFRE, new { @class = "form-control" })
+        <br />
 
-    <button class="btn btn-primary">Çağrıyı Düzenle</button>
-}
+        <button class="btn btn-primary">Profili Düzenle</button>
+    }
+</div>

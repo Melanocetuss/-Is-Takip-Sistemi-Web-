@@ -143,8 +143,6 @@ a.sidebar-link:hover {
 
 #loginDiv {
     display: flex;
-    justify-content: center; /* Yatayda ortalama */
+    justify-content: center;
     margin-top:250px;
-    /*align-items: center;Dikeyde ortalama */
-    /*min-height: 100vh;*/
 }
